@@ -1,0 +1,36 @@
+{
+  "name": "strapiportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.20.4",
+    "@strapi/plugin-i18n": "4.20.4",
+    "@strapi/plugin-users-permissions": "4.20.4",
+    "@strapi/strapi": "4.20.4",
+    "better-sqlite3": "8.6.0",
+    "pg": "^8.11.3",
+    "pg-connection-string": "^2.6.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": ">=7.0.0"
+  },
+  "strapi": {
+    "uuid": "72885fe0-d86a-43d9-ab85-cc43b83b4156"
+  }
+}
